@@ -8,7 +8,7 @@
 }
 
 
-.display {
+.display_container {
     width: 100%;
     font-size: 22px;
     text-align: right;
@@ -16,7 +16,7 @@
     background-color: #0000FF;
 }
 
-.container_keys {
+.keys_container {
     display: flex;
     justify-content: center;
     align-items: center;
