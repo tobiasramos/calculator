@@ -10,6 +10,7 @@
 
 .display_container {
     width: 100%;
+    height: 38px;
     font-size: 22px;
     text-align: right;
     padding: 8px;
@@ -42,4 +43,8 @@
 .keyOp {
     background-color: #f44 !important;
     border-color: #800 !important;
+}
+
+.onOf {
+    display: none;
 }

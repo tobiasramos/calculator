@@ -56,3 +56,10 @@ tresponse.addEventListener("click", (evt) => {
 tclean.addEventListener("click", (evt) => {
     display.innerHTML = "0"
 })
+
+ton.addEventListener("click", (evt) => {
+    if (display.classList.toggle("onOf")) {
+        display.innerHTML = "0"
+    }
+
+})
