@@ -52,3 +52,7 @@ tresponse.addEventListener("click", (evt) => {
     const res = eval(display.innerHTML)
     display.innerHTML = res
 })
+
+tclean.addEventListener("click", (evt) => {
+    display.innerHTML = "0"
+})
